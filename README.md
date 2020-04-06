@@ -15,14 +15,15 @@ $ docker stop [option] [container]
 #### [docker run](https://docs.docker.com/engine/reference/run/)
 ```
 $ docker run redis
-$ docker run -it redis redis-server
+$ docker run -it redis command
+$ docker run -it -p 3000:3000 CONTAINER_ID
 ```
 
 #### [docker build](https://docs.docker.com/engine/reference/commandline/build/)
 ```
 $ docker build . 
 $ docker build -t docker_username/given_name:latest .
-$ docker build -f file_name
+$ docker build -f file_name .
 ```
 
 #### [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
