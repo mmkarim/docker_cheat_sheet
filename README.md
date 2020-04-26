@@ -37,4 +37,6 @@ $ docker-compose up --build
 $ docker-compose up -d => run in background
 $ docker-compose down
 $ docker-compose ps
+
+$ docker-compose -f docker-compose-dev.yml up --build
 ```
