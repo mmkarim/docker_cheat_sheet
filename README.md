@@ -40,3 +40,8 @@ $ docker-compose ps
 
 $ docker-compose -f docker-compose-dev.yml up --build
 ```
+
+#### docker logs
+```
+$ docker logs container_id
+```
